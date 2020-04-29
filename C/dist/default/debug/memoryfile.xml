@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/debug/TP_ER_Adrien.X.debug.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>49152</length>
+      <used>686</used>
+      <free>48466</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>524514</length>
+      <used>9705</used>
+      <free>514809</free>
+    </memory>
+  </executable>
+</project>
