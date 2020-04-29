@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{6890AA6A-BB42-4CC6-ABE7-8070D397CA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedSerialPort", "..\..\ExtendedSerialPort\ExtendedSerialPort\ExtendedSerialPort.csproj", "{21AC599E-E3D5-4181-AA0F-7C2E00CCA016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryElements", "..\..\lib lidar\GeometryElements\GeometryElements.csproj", "{4B5E8A73-5C32-490B-A4DD-DF040F22254E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidar", "..\..\lib lidar\TiM5xx\Lidar.csproj", "{84E83C7B-C4BF-4547-835F-06743F1D1DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\..\lib lidar\Utilities\Utilities.csproj", "{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfWorldMapDisplayIUT", "..\..\WpfWorldMapDisplay\WpfWorldMapDisplayIUT.csproj", "{89604641-927E-47FF-8DB6-91CF5C4976C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfOscilloscopeControl", "..\..\WpfOscilloscope\WpfOscilloscopeControl.csproj", "{88BAA407-3FEA-4F4B-BB41-5309CE48884E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrajectoryGenerator", "TrajectoryGenerator\TrajectoryGenerator.csproj", "{A6FF1300-8E26-4362-8A6B-EFD95A9F8213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTimers", "..\..\HighFreqTimer\HighFreqTimer\AdvancedTimers.csproj", "{ECC907ED-F9B2-457F-901E-720987934E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6890AA6A-BB42-4CC6-ABE7-8070D397CA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6890AA6A-BB42-4CC6-ABE7-8070D397CA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6890AA6A-BB42-4CC6-ABE7-8070D397CA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6890AA6A-BB42-4CC6-ABE7-8070D397CA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AC599E-E3D5-4181-AA0F-7C2E00CCA016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AC599E-E3D5-4181-AA0F-7C2E00CCA016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AC599E-E3D5-4181-AA0F-7C2E00CCA016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AC599E-E3D5-4181-AA0F-7C2E00CCA016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5E8A73-5C32-490B-A4DD-DF040F22254E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5E8A73-5C32-490B-A4DD-DF040F22254E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5E8A73-5C32-490B-A4DD-DF040F22254E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5E8A73-5C32-490B-A4DD-DF040F22254E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E83C7B-C4BF-4547-835F-06743F1D1DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E83C7B-C4BF-4547-835F-06743F1D1DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E83C7B-C4BF-4547-835F-06743F1D1DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E83C7B-C4BF-4547-835F-06743F1D1DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7D0DA4-9A13-4B18-A90E-0243BBCCE40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89604641-927E-47FF-8DB6-91CF5C4976C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BAA407-3FEA-4F4B-BB41-5309CE48884E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BAA407-3FEA-4F4B-BB41-5309CE48884E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BAA407-3FEA-4F4B-BB41-5309CE48884E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BAA407-3FEA-4F4B-BB41-5309CE48884E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FF1300-8E26-4362-8A6B-EFD95A9F8213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FF1300-8E26-4362-8A6B-EFD95A9F8213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FF1300-8E26-4362-8A6B-EFD95A9F8213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FF1300-8E26-4362-8A6B-EFD95A9F8213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC907ED-F9B2-457F-901E-720987934E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC907ED-F9B2-457F-901E-720987934E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC907ED-F9B2-457F-901E-720987934E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC907ED-F9B2-457F-901E-720987934E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBBD971C-16FA-4ECD-914B-9AEDF091A39B}
+	EndGlobalSection
+EndGlobal
